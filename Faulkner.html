@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Spatializing Faulkner</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='Faulkner.js'></script>
+    <link href='Faulkner.css' rel='stylesheet' />
+</head>
+<body>
+
+
+
+<!-- DO NOT TOUCH!-->
+<div id='map'></div>
+
+<!-- INFOBOX - Comment out to delete -->
+<div class='map-overlay' id='infobox'><h3>Infobox</h3><div id='pd'><p>Hover over an area </p>  </div></div>
+
+<!-- LEGEND - Comment out to delete -->
+<div class='map-overlay' id='legend'><h3>Legend</h3></div>
+
+<!-- TOGGLE MENU - Comment out to delete -->
+<nav id="menu"></nav>
+
+
+<!--TIMELINE SLIDER - Comment out to delete -->
+<!-- <div id='console'>
+  <h3>Timeline for Dates</h3>
+  <p>add some more text here</p>
+  <div class='session1' id='sliderbar'>
+  <h5>Year: <label id='active-hour'>1526</label></h5>
+  <input id='slider2' class='row' type='range' min='1635' max='2000' step='1' value='1500' />
+</div>
+</div> -->
+<!--END TIMELINE SLIDER: DO NOT COMMENT BEYOND THIS POINT-->
+
+
+<!--OPACITY SLIDER - COMMENT OUT TO DELETE-->
+<!-- <div class='map-overlay2 top'>
+    <div class='map-overlay-inner'>
+        <label><h3>Layer opacity: <span id='slider-value'>100%</span></h3></label>
+        <input id='slider1' type='range' min='0' max='100' step='0' value='100' />
+    </div>
+</div> -->
+<!--OPACITY SLIDER END: DO NOT COMMENT BEYOND THIS POINT-->
+
+
+<!--SLIDESHOW - DO NOT COMMENT OUT-->
+<!--This is where you add all your text-->
+<div id='features'>
+    <section id='part-1' class='active'>
+        <h1><center>Faulkner Spatial Biography and Database</center></h1>
+        <h3><center>A Quick Flight Through Europe </center> </h3>
+        <p>The following is a demo of the type of things a spatial biography can do. One of the main features is that it can move through time and space to reveal objects and people that share spatial relationship.</p>
+        <h4>Instructions</h4>
+        <p>The map can be navigated in three ways: </p>
+        <p><b>Temporaly</b> by <i>scrolling</i> up and down to follow Faulkner's travel route as he left Oxford to see Europe.</p>
+        <p><b>Spatially</b> by <i>hovering</i> over the map and exploring different connections between Faulkner and the places and objects that surrounded him.</p>
+        <p><b>Data-driven</b> by <i>clicking</i> on the buttons on the top left to see aggregate data insights about Faulkner's life across time and space, such as the people who wrote him letters and the provenance of the books he read.</p>
+
+
+      </section>
+        <section id='part-2'>
+            <h1>________</h1>
+            <h3>New Orleans</h3>
+
+            <p>Faulkner Arrives in New Orleans</p>
+
+        </section>
+        <section id='part-3'>
+            <h1>________</h1>
+            <h3>Savannah</h3>
+
+            <p>Before his big transatlantic crossing, he first makes a quick pit-stop in Savannah</p>
+        </section>
+        <section id='part-4'>
+            <h1>________</h1>
+            <h3>Genoa</h3>
+
+            <p>After a long transatlantic crossing he arrived in Genoa. He had plans to meet Ezra Pound in Rapallo, but anxiety prevented him from going</p>
+            <img src="http://www.oldstratforduponavon.com/sitebuilder/images/genoa28-620x413.jpg" width=95%>
+
+        </section>
+        <section id='part-5'>
+            <h1>________</h1>
+            <h3>Mottarone</h3>
+
+            <p>He then make his way to Mottarone, Switzerland, which he finds extremely boring</p>
+
+        </section>
+        <section id='part-6'>
+            <h1>________</h1>
+            <h3>Paris</h3>
+
+            <p>Like any good American abroad he goes to Paris. There he claims to have seen James Joyce at Les Deus Magots, though he does not have evidence to support this</p>
+
+        </section>
+        <section id='part-7'>
+          <h1>________</h1>
+            <h3>A Broader View</h3>
+
+            <p> We can also pull in other data sets to show different spatial relations</p>
+
+        </section>
+        <section id='part-8'>
+
+        </section>
+</div>
+
+</body>
+</html>
